@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
 
+FROM c21420324/portainer:latest
 FROM node:18-alpine
 WORKDIR /app
 COPY . .
